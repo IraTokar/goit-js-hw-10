@@ -63,15 +63,6 @@ function onFetchError() {
     loaderEl.classList.replace('loader', 'is-hidden');
 
     Notify.failure('Oops! Something went wrong! Try reloading the page or select another cat breed!') 
-};
-
-function onFetchError() {
-  selectEl.classList.remove('is-hidden');
-  loaderEl.classList.replace('loader', 'is-hidden');
-
-  Notify.failure(
-    'Oops! Something went wrong! Try reloading the page or select another cat breed!'
-  );
 }
 
 
